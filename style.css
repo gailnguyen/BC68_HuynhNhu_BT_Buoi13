@@ -1,6 +1,6 @@
 body {
-    margin-top: 80px;
-    background-color: #EDF2F9;
+  margin-top: 80px;
+  background-color: #edf2f9;
 }
 
 * {
@@ -10,85 +10,88 @@ body {
 }
 
 body .main {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
 }
 
 body .nav.nav-pills {
-    width: 15%;
+  width: 15%;
 }
 
 body .nav-pills .nav-link.active {
-    color: #640B39;
-    background-color: #F2E3C6;
-    font-weight: 600;
+  color: #640b39;
+  background-color: #f2e3c6;
+  font-weight: 600;
 }
 
 body .nav-link {
-    color: #640B39;
+  color: #640b39;
 }
 
-body .nav-link:focus, .nav-link:hover {
-    color: #58355F;
+body .nav-link:focus,
+.nav-link:hover {
+  color: #58355f;
 }
 
 #BT01 button {
-    background-color: #EECEB5;
+  background-color: #eeceb5;
 }
 
 #BT01 p {
-    background-color: #F2E3C6;
+  background-color: #f2e3c6;
 }
 
 #BT02 input {
-    outline: none;
+  outline: none;
 }
 
 #BT02 button {
-    background-color: #F1868E;
+  background-color: #f1868e;
 }
 
 #BT02 p {
-    background-color: #f1a29d71;
+  background-color: #f1a29d71;
 }
 
 #BT03 button {
-    background-color: #54264D;
-    color: white;
+  background-color: #54264d;
+  color: white;
 }
 
 #BT03 p {
-    background-color: #aa8b9b88;
+  background-color: #aa8b9b88;
 }
 
 #BT04 button {
-    background-color: #87ABAB;
+  background-color: #87abab;
 }
 
 #BT04 p {
-    background-color: #B5CABB;
+  background-color: #b5cabb;
 }
 
 #BT05 button {
-    background-color: #7F92A4;
+  background-color: #7f92a4;
 }
 
 #BT05 p {
-    background-color: #6c6e834f;
+  background-color: #6c6e834f;
 }
 
-
 .tab-content {
-    width: 100%;
-    background-image: url(./img/background.jpg);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  background-image: url(./img/background.jpg);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1200px) {
-    body .main {
-        flex-flow: column;
-    }
+  body .main {
+    flex-flow: column;
+  }
+  body .nav.nav-pills {
+    width: 50%;
+  }
 }
